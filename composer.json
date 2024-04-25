@@ -1,0 +1,143 @@
+{
+    "name": "bytesparrow/ml-plus",
+    "description": "ml-plus project",
+    "authors": [
+        {
+            "name": "Bernhard Strehl",
+            "email": "moodle@bytesparrow.de",
+            "homepage": "https://www.bytesparrow.de",
+            "role": "Developer"
+        }],
+    "repositories": [
+    		{
+
+            "type": "git",
+            "url": "https://github.com/bytesparrow/moodle-mix.git"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "moodle-an-hochschulen/boost_union",
+                "type": "moodle-theme",
+                "version": "v4.1.24",
+                "source": {
+                    "url": "https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git",
+                    "type": "git",
+                    "reference": "tags/v4.1-r24"
+                },
+                "require": {
+                    "composer/installers": "~2.2",
+                    "moodle/moodle": "v4.*"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "moodle-an-hochschulen/boost_union",
+                "type": "moodle-theme",
+                "version": "v4.3.11",
+                "source": {
+                    "url": "https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git",
+                    "type": "git",
+                    "reference": "tags/v4.3-r11"
+                },
+                "require": {
+                    "composer/installers": "~2.2",
+                    "moodle/moodle": "v4.*"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "adapta/modcustomfields",
+                "type": "moodle-local",
+                "version": "6",
+                "source": {
+                    "url": "https://gitlab.com/adapta/moodle-local_modcustomfields.git",
+                    "type": "git",
+                    "reference": "6"
+                },
+                "require": {
+                    "composer/installers": "~2.2",
+                    "moodle/moodle": "v4.*"
+                }
+            }
+        },
+
+        {
+            "type": "git",
+            "url": "https://github.com/bytesparrow/moodle-theme_contentmodifier.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/bytesparrow/moodle-theme_h5peventsystem.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/bytesparrow/moodle-theme_nos.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/bytesparrow/moodle-local_pdfjsrenderer.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/bytesparrow/moodle-local_zmulticontentrendering.git"
+        },
+         {
+            "type": "git",
+            "url": "https://github.com/bytesparrow/moodle-local_pdffieldrenderer.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/bytesparrow/moodle-local_pdffieldrenderer.git"
+        },
+        {
+
+            "type": "git",
+            "url": "https://github.com/bytesparrow/moodle-composer-base.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/bytesparrow/moodle-customfield_file.git"
+        }
+
+    ],
+
+    "require": {
+    		"bytesparrow/moodle-mix": "dev-main",
+    		"moodle/moodle": "v4.3.1",
+    	  "wikimedia/composer-merge-plugin": "^2.0"			
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "8.2"
+        },
+
+        "allow-plugins": {
+            "composer/installers": true,
+            "wikimedia/composer-merge-plugin": true,
+            "bytesparrow/moodle-composer-base": true
+        }
+    },
+    "extra": {
+				"keepfiles": ["config.abc", "config.xxx"], 
+        "merge-plugin": { 
+            "require": [
+                "vendor/bytesparrow/moodle-composer-base/composer.json"
+            ],
+            "recurse": true,
+            "replace": true,
+            "ignore-duplicates": false,
+            "merge-dev": true,
+            "merge-extra": true,
+            "merge-extra-deep": true,
+            "merge-scripts": true
+        },
+        "installer-paths": {}
+    }
+}
