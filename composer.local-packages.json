@@ -1,0 +1,36 @@
+{
+    "repositories": [
+        {
+            "type": "path",
+            "url": "local_dev_packages/bytesparrow/moodle-theme_contentmodifier"
+        },
+        {
+            "type": "path",
+            "url": "local_dev_packages/bytesparrow/moodle-theme_h5peventsystem"
+        },
+        {
+            "type": "path",
+            "url": "local_dev_packages/bytesparrow/moodle-theme_nos"
+        },
+        {
+            "type": "path",
+            "url": "local_dev_packages/bytesparrow/moodle-local_pdfjsrenderer"
+        },
+        {
+            "type": "path",
+            "url": "local_dev_packages/bytesparrow/moodle-local_zmulticontentrendering"
+        },
+        {
+            "type": "path",
+            "url": "local_dev_packages/bytesparrow/moodle-local_pdffieldrenderer"
+        },
+        {
+            "type": "path",
+            "url": "local_dev_packages/bytesparrow/moodle-composer-base"
+        },
+        {
+            "type": "path",
+            "url": "local_dev_packages/bytesparrow/moodle-customfield_file"
+        }
+    ]
+}

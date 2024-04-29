@@ -1,0 +1,789 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "143cdc0772a2b12677f5844585528ef7",
+    "packages": [
+        {
+            "name": "adapta/modcustomfields",
+            "version": "6",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/adapta/moodle-local_modcustomfields.git",
+                "reference": "6"
+            },
+            "require": {
+                "composer/installers": "~2.2",
+                "moodle/moodle": "v4.*"
+            },
+            "type": "moodle-local"
+        },
+        {
+            "name": "andrewhancox/file",
+            "version": "dev-composer-file",
+            "dist": {
+                "type": "path",
+                "url": "local_dev_packages/bytesparrow/moodle-customfield_file",
+                "reference": "80c8f1e5f77a8b95c3b40821b0ca7e4181912fcd"
+            },
+            "require": {
+                "composer/installers": "~2.2",
+                "moodle/moodle": "v4.*"
+            },
+            "type": "moodle-customfield",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "A custom field to attach files to entities in Moodle",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "bytesparrow/contentmodifier",
+            "version": "v1.0-alpha3",
+            "dist": {
+                "type": "path",
+                "url": "local_dev_packages/bytesparrow/moodle-theme_contentmodifier",
+                "reference": "630be82f4e6c0629106dfa36f12cd472f22ab1c8"
+            },
+            "require": {
+                "composer/installers": "~2.2",
+                "moodle/moodle": "v4.*",
+                "php": "^7.4 || ^8.0"
+            },
+            "type": "moodle-theme",
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Strehl"
+                }
+            ],
+            "description": "A theme that enables other themes or plugin to modify moodle's html-output and gives modules the possibility to override renderers.",
+            "keywords": [
+                "html",
+                "moodle",
+                "theme"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "bytesparrow/h5peventsystem",
+            "version": "v1.0-alpha3",
+            "dist": {
+                "type": "path",
+                "url": "local_dev_packages/bytesparrow/moodle-theme_h5peventsystem",
+                "reference": "848d1855c82bb9c7a08c83a9b5e742ee4b79bf9a"
+            },
+            "require": {
+                "composer/installers": "~2.2",
+                "moodle/moodle": "v4.*",
+                "php": "^7.4 || ^8.0"
+            },
+            "type": "moodle-theme",
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Strehl",
+                    "email": "moodle@bytesparrow.de",
+                    "homepage": "https://www.bytesparrow.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "H5PEventSystem is a theme that provides the possibility to attach events to h5p-content",
+            "keywords": [
+                "html",
+                "moodle",
+                "theme"
+            ],
+            "support": {
+                "email": "moodle@bytesparrow.de"
+            },
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "bytesparrow/moodle-composer-base",
+            "version": "v1.0-alpha6",
+            "dist": {
+                "type": "path",
+                "url": "local_dev_packages/bytesparrow/moodle-composer-base",
+                "reference": "731249c61a28bdec3796aee3229ac8149b92719a"
+            },
+            "require": {
+                "composer-plugin-api": "^2",
+                "composer/installers": "^2"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "bytesparrow\\MoodleComposerBase",
+                "keepfiles": [
+                    "config.php"
+                ],
+                "installer-paths": {
+                    "vendor/moodle/moodle/{$name}": [
+                        "type:moodle-mod"
+                    ],
+                    "vendor/moodle/moodle/admin/report/{$name}": [
+                        "type:moodle-admin_report"
+                    ],
+                    "vendor/moodle/moodle/lib/editor/atto/plugins/{$name}": [
+                        "type:moodle-atto"
+                    ],
+                    "vendor/moodle/moodle/admin/tool/{$name}": [
+                        "type:moodle-tool"
+                    ],
+                    "vendor/moodle/moodle/mod/assignment/type/{$name}": [
+                        "type:moodle-assignment"
+                    ],
+                    "vendor/moodle/moodle/mod/assign/submission/{$name}": [
+                        "type:moodle-assignsubmission"
+                    ],
+                    "vendor/moodle/moodle/mod/assign/feedback/{$name}": [
+                        "type:moodle-assignfeedback"
+                    ],
+                    "vendor/moodle/moodle/lib/antivirus/{$name}": [
+                        "type:moodle-antivirus"
+                    ],
+                    "vendor/moodle/moodle/auth/{$name}": [
+                        "type:moodle-auth"
+                    ],
+                    "vendor/moodle/moodle/availability/condition/{$name}": [
+                        "type:moodle-availability"
+                    ],
+                    "vendor/moodle/moodle/blocks/{$name}": [
+                        "type:moodle-block"
+                    ],
+                    "vendor/moodle/moodle/mod/book/tool/{$name}": [
+                        "type:moodle-booktool"
+                    ],
+                    "vendor/moodle/moodle/cache/stores/{$name}": [
+                        "type:moodle-cachestore"
+                    ],
+                    "vendor/moodle/moodle/cache/locks/{$name}": [
+                        "type:moodle-cachelock"
+                    ],
+                    "vendor/moodle/moodle/calendar/type/{$name}": [
+                        "type:moodle-calendartype"
+                    ],
+                    "vendor/moodle/moodle/customfield/field/{$name}": [
+                        "type:moodle-customfield"
+                    ],
+                    "vendor/moodle/moodle/files/converter/{$name}": [
+                        "type:moodle-fileconverter"
+                    ],
+                    "vendor/moodle/moodle/course/format/{$name}": [
+                        "type:moodle-format"
+                    ],
+                    "vendor/moodle/moodle/course/report/{$name}": [
+                        "type:moodle-coursereport"
+                    ],
+                    "vendor/moodle/moodle/contentbank/contenttype/{$name}": [
+                        "type:moodle-contenttype"
+                    ],
+                    "vendor/moodle/moodle/mod/customcert/element/{$name}": [
+                        "type:moodle-customcertelement"
+                    ],
+                    "vendor/moodle/moodle/mod/data/field/{$name}": [
+                        "type:moodle-datafield"
+                    ],
+                    "vendor/moodle/moodle/dataformat/{$name}": [
+                        "type:moodle-dataformat"
+                    ],
+                    "vendor/moodle/moodle/mod/data/preset/{$name}": [
+                        "type:moodle-datapreset"
+                    ],
+                    "vendor/moodle/moodle/lib/editor/{$name}": [
+                        "type:moodle-editor"
+                    ],
+                    "vendor/moodle/moodle/enrol/{$name}": [
+                        "type:moodle-enrol"
+                    ],
+                    "vendor/moodle/moodle/filter/{$name}": [
+                        "type:moodle-filter"
+                    ],
+                    "vendor/moodle/moodle/grade/export/{$name}": [
+                        "type:moodle-gradeexport"
+                    ],
+                    "vendor/moodle/moodle/grade/import/{$name}": [
+                        "type:moodle-gradeimport"
+                    ],
+                    "vendor/moodle/moodle/grade/report/{$name}": [
+                        "type:moodle-gradereport"
+                    ],
+                    "vendor/moodle/moodle/grade/grading/form/{$name}": [
+                        "type:moodle-gradingform"
+                    ],
+                    "vendor/moodle/moodle/local/{$name}": [
+                        "type:moodle-local"
+                    ],
+                    "vendor/moodle/moodle/admin/tool/log/store/{$name}": [
+                        "type:moodle-logstore"
+                    ],
+                    "vendor/moodle/moodle/mod/lti/source/{$name}": [
+                        "type:moodle-ltisource"
+                    ],
+                    "vendor/moodle/moodle/mod/lti/service/{$name}": [
+                        "type:moodle-ltiservice"
+                    ],
+                    "vendor/moodle/moodle/media/player/{$name}": [
+                        "type:moodle-media"
+                    ],
+                    "vendor/moodle/moodle/message/output/{$name}": [
+                        "type:moodle-message"
+                    ],
+                    "vendor/moodle/moodle/mnet/service/{$name}": [
+                        "type:moodle-mnetservice"
+                    ],
+                    "vendor/moodle/moodle/payment/gateway/{$name}": [
+                        "type:moodle-paygw"
+                    ],
+                    "vendor/moodle/moodle/plagiarism/{$name}": [
+                        "type:moodle-plagiarism"
+                    ],
+                    "vendor/moodle/moodle/portfolio/{$name}": [
+                        "type:moodle-portfolio"
+                    ],
+                    "vendor/moodle/moodle/question/behaviour/{$name}": [
+                        "type:moodle-qbehaviour"
+                    ],
+                    "vendor/moodle/moodle/question/format/{$name}": [
+                        "type:moodle-qformat"
+                    ],
+                    "vendor/moodle/moodle/question/type/{$name}": [
+                        "type:moodle-qtype"
+                    ],
+                    "vendor/moodle/moodle/mod/quiz/accessrule/{$name}": [
+                        "type:moodle-quizaccess"
+                    ],
+                    "vendor/moodle/moodle/mod/quiz/report/{$name}": [
+                        "type:moodle-quiz"
+                    ],
+                    "vendor/moodle/moodle/report/{$name}": [
+                        "type:moodle-report"
+                    ],
+                    "vendor/moodle/moodle/repository/{$name}": [
+                        "type:moodle-repository"
+                    ],
+                    "vendor/moodle/moodle/mod/scorm/report/{$name}": [
+                        "type:moodle-scormreport"
+                    ],
+                    "vendor/moodle/moodle/search/engine/{$name}": [
+                        "type:moodle-search"
+                    ],
+                    "vendor/moodle/moodle/theme/{$name}": [
+                        "type:moodle-theme"
+                    ],
+                    "vendor/moodle/moodle/lib/editor/tinymce/plugins/{$name}": [
+                        "type:moodle-tinymce"
+                    ],
+                    "vendor/moodle/moodle/user/profile/field/{$name}": [
+                        "type:moodle-profilefield"
+                    ],
+                    "vendor/moodle/moodle/webservice/{$name}": [
+                        "type:moodle-webservice"
+                    ],
+                    "vendor/moodle/moodle/mod/workshop/allocation/{$name}": [
+                        "type:moodle-workshopallocation"
+                    ],
+                    "vendor/moodle/moodle/mod/workshop/eval/{$name}": [
+                        "type:moodle-workshopeval"
+                    ],
+                    "vendor/moodle/moodle/mod/workshop/form/{$name}": [
+                        "type:moodle-workshopform"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "bytesparrow\\": "src"
+                }
+            },
+            "scripts": {
+                "pre-install-cmd": [
+                    "bytesparrow\\MoodleComposerBase::preInstall"
+                ],
+                "pre-update-cmd": [
+                    "bytesparrow\\MoodleComposerBase::preUpdate"
+                ],
+                "post-update-cmd": [
+                    "bytesparrow\\MoodleComposerBase::postUpdate"
+                ],
+                "post-install-cmd": [
+                    "bytesparrow\\MoodleComposerBase::postInstall"
+                ]
+            },
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Strehl",
+                    "email": "moodle@bytesparrow.de",
+                    "homepage": "https://www.bytesparrow.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A composer plugin to ease the maintenance and installation of Moodle.",
+            "keywords": [
+                "composer",
+                "moodle"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "bytesparrow/moodle-mix",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bytesparrow/moodle-mix.git",
+                "reference": "f3e890437d7efa3c97336304e34e07932dfe4a86"
+            },
+            "require": {
+                "adapta/modcustomfields": "6",
+                "andrewhancox/file": "dev-composer-file",
+                "bytesparrow/contentmodifier": "v1.*",
+                "bytesparrow/h5peventsystem": "v1.*",
+                "bytesparrow/moodle-composer-base": "v1.*",
+                "bytesparrow/nos": "v1.*",
+                "bytesparrow/pdffieldrenderer": "v1.*",
+                "bytesparrow/pdfjsrenderer": "v1.*",
+                "bytesparrow/zmulticontentrendering": "v1.*",
+                "moodle-an-hochschulen/boost_union": "v4.1.*",
+                "wikimedia/composer-merge-plugin": "^2.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "merge-plugin": {
+                    "require": [
+                        "vendor/bytesparrow/moodle-composer-base/composer.json"
+                    ],
+                    "recurse": true,
+                    "replace": true,
+                    "ignore-duplicates": false,
+                    "merge-dev": true,
+                    "merge-extra": true,
+                    "merge-extra-deep": true,
+                    "merge-scripts": true
+                },
+                "installer-paths": []
+            },
+            "authors": [
+                {
+                    "name": "Bernhard Strehl",
+                    "email": "moodle@bytesparrow.de",
+                    "homepage": "https://www.bytesparrow.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Using this custom Moodle installation you can combine various contents within Moodle.",
+            "time": "2024-04-25T09:38:35+00:00"
+        },
+        {
+            "name": "bytesparrow/nos",
+            "version": "v1.0-alpha3",
+            "dist": {
+                "type": "path",
+                "url": "local_dev_packages/bytesparrow/moodle-theme_nos",
+                "reference": "58ec7dfc64b501702338429fa07c946266601af3"
+            },
+            "require": {
+                "bytesparrow/contentmodifier": "v1.*",
+                "bytesparrow/h5peventsystem": "v1.*",
+                "composer/installers": "~2.2",
+                "moodle/moodle": "v4.*"
+            },
+            "type": "moodle-theme",
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Strehl",
+                    "email": "moodle@bytesparrow.de",
+                    "homepage": "https://www.bytesparrow.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A theme for ml.",
+            "keywords": [
+                "moodle",
+                "theme"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "bytesparrow/pdffieldrenderer",
+            "version": "v1.0-alpha4",
+            "dist": {
+                "type": "path",
+                "url": "local_dev_packages/bytesparrow/moodle-local_pdffieldrenderer",
+                "reference": "2dba639cb6b0adf90173f96d500dd65615352fba"
+            },
+            "require": {
+                "composer/installers": "~2.2",
+                "php": "^7.4 || ^8.0"
+            },
+            "type": "moodle-local",
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Strehl",
+                    "email": "moodle@bytesparrow.de",
+                    "homepage": "https://www.bytesparrow.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This plugin can render and display an uploaded PDF-file within Moodle",
+            "keywords": [
+                "custom field",
+                "moodle",
+                "pdf",
+                "pdfjs"
+            ],
+            "support": {
+                "email": "moodle@bytesparrow.de"
+            },
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "bytesparrow/pdfjsrenderer",
+            "version": "v1.1",
+            "dist": {
+                "type": "path",
+                "url": "local_dev_packages/bytesparrow/moodle-local_pdfjsrenderer",
+                "reference": "ff5820fcfe5a31d35075eafdd0c10807744e9229"
+            },
+            "require": {
+                "composer/installers": "~2.2",
+                "moodle/moodle": "v4.*",
+                "php": "^7.4 || ^8.0"
+            },
+            "type": "moodle-local",
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Strehl",
+                    "email": "moodle@bytesparrow.de",
+                    "homepage": "https://www.bytesparrow.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is an JS-API-Plugin. It does nothing by itself. It's used for rendering PDFs",
+            "keywords": [
+                "api",
+                "moodle",
+                "pdf",
+                "pdfjs"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "bytesparrow/zmulticontentrendering",
+            "version": "v1.0-alpha2",
+            "dist": {
+                "type": "path",
+                "url": "local_dev_packages/bytesparrow/moodle-local_zmulticontentrendering",
+                "reference": "162ce90ef0c48f2cf8a236f3e3befc67874c3d47"
+            },
+            "require": {
+                "composer/installers": "~2.2",
+                "php": "^7.4 || ^8.0"
+            },
+            "type": "moodle-local",
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Strehl",
+                    "email": "moodle@bytesparrow.de",
+                    "homepage": "https://www.bytesparrow.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Using (and editing) this plugin you can re-order the content if using custom fields for enhancing your content",
+            "keywords": [
+                "h5p",
+                "moodle",
+                "multi content",
+                "pdf",
+                "render"
+            ],
+            "support": {
+                "email": "moodle@bytesparrow.de"
+            },
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "composer/installers",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "2a9170263fcd9cc4fd0b50917293c21d6c1a5bfe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/2a9170263fcd9cc4fd0b50917293c21d6c1a5bfe",
+                "reference": "2a9170263fcd9cc4fd0b50917293c21d6c1a5bfe",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^5.3",
+                "symfony/process": "^5"
+            },
+            "default-branch": true,
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "2.x-dev"
+                },
+                "plugin-modifies-install-path": true
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "matomo",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "pantheon",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "tastyigniter",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/main"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-10-12T12:07:30+00:00"
+        },
+        {
+            "name": "moodle-an-hochschulen/boost_union",
+            "version": "v4.1.24",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git",
+                "reference": "tags/v4.1-r24"
+            },
+            "require": {
+                "composer/installers": "~2.2",
+                "moodle/moodle": "v4.*"
+            },
+            "type": "moodle-theme"
+        },
+        {
+            "name": "moodle/moodle",
+            "version": "4.3.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://satis.middag.com.br/dist/moodle/moodle/moodle-moodle-4.3.3.zip",
+                "shasum": "922715d640e6dc2d2540a0bb9d6fcde4092e293b"
+            },
+            "require": {
+                "composer/installers": "*"
+            },
+            "type": "library"
+        },
+        {
+            "name": "wikimedia/composer-merge-plugin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/composer-merge-plugin.git",
+                "reference": "ab7cf5e140e23ce603872780ab8b570cfaf9c1f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/composer-merge-plugin/zipball/ab7cf5e140e23ce603872780ab8b570cfaf9c1f9",
+                "reference": "ab7cf5e140e23ce603872780ab8b570cfaf9c1f9",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1||^2.0",
+                "php": ">=7.4.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.1||^2.0",
+                "ext-json": "*",
+                "mediawiki/mediawiki-phan-config": "0.11.1",
+                "php-parallel-lint/php-parallel-lint": "~1.3.1",
+                "phpspec/prophecy-phpunit": "~2.0.1",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "~3.7.1"
+            },
+            "default-branch": true,
+            "type": "composer-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
+                "class": "Wikimedia\\Composer\\Merge\\V2\\MergePlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wikimedia\\Composer\\Merge\\V2\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bryan Davis",
+                    "email": "bd808@wikimedia.org"
+                }
+            ],
+            "description": "Composer plugin to merge multiple composer.json files",
+            "support": {
+                "issues": "https://github.com/wikimedia/composer-merge-plugin/issues",
+                "source": "https://github.com/wikimedia/composer-merge-plugin/tree/master"
+            },
+            "time": "2023-04-15T18:48:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "bytesparrow/moodle-mix": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "composer-plugin-api": "^2"
+    },
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "8.2"
+    },
+    "plugin-api-version": "2.2.0"
+}

@@ -9,7 +9,7 @@
             "role": "Developer"
         }],
     "repositories": [
-    		{
+        {
 
             "type": "git",
             "url": "https://github.com/bytesparrow/moodle-mix.git"
@@ -86,7 +86,7 @@
             "type": "git",
             "url": "https://github.com/bytesparrow/moodle-local_zmulticontentrendering.git"
         },
-         {
+        {
             "type": "git",
             "url": "https://github.com/bytesparrow/moodle-local_pdffieldrenderer.git"
         },
@@ -107,9 +107,9 @@
     ],
 
     "require": {
-    		"bytesparrow/moodle-mix": "dev-main",
-    		"moodle/moodle": "v4.3.1",
-    	  "wikimedia/composer-merge-plugin": "^2.0"			
+        "bytesparrow/moodle-mix": "dev-main",
+        "moodle/moodle": "v4.3.3",
+        "wikimedia/composer-merge-plugin": "^2.1"
     },
     "minimum-stability": "dev",
     "config": {
@@ -125,7 +125,7 @@
         }
     },
     "extra": {
-				"keepfiles": ["config.abc", "config.xxx"], 
+        "keepfiles": ["config.abc", "config.xxx"], 
         "merge-plugin": { 
             "require": [
                 "vendor/bytesparrow/moodle-composer-base/composer.json"
