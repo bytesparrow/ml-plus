@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "143cdc0772a2b12677f5844585528ef7",
+    "content-hash": "641d75a885db950c3ea94131d0c79257",
     "packages": [
         {
             "name": "adapta/modcustomfields",
@@ -23,10 +23,10 @@
         {
             "name": "andrewhancox/file",
             "version": "dev-composer-file",
-            "dist": {
-                "type": "path",
-                "url": "local_dev_packages/bytesparrow/moodle-customfield_file",
-                "reference": "80c8f1e5f77a8b95c3b40821b0ca7e4181912fcd"
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bytesparrow/moodle-customfield_file.git",
+                "reference": "075d43b8fe9f348579d703a5aaa73334cc4152c4"
             },
             "require": {
                 "composer/installers": "~2.2",
@@ -37,16 +37,14 @@
                 "GPL-3.0-or-later"
             ],
             "description": "A custom field to attach files to entities in Moodle",
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2024-04-24T10:51:04+00:00"
         },
         {
             "name": "bytesparrow/contentmodifier",
             "version": "v1.0-alpha3",
-            "dist": {
-                "type": "path",
-                "url": "local_dev_packages/bytesparrow/moodle-theme_contentmodifier",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bytesparrow/moodle-theme_contentmodifier.git",
                 "reference": "630be82f4e6c0629106dfa36f12cd472f22ab1c8"
             },
             "require": {
@@ -69,16 +67,14 @@
                 "moodle",
                 "theme"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2024-04-17T13:02:51+00:00"
         },
         {
             "name": "bytesparrow/h5peventsystem",
             "version": "v1.0-alpha3",
-            "dist": {
-                "type": "path",
-                "url": "local_dev_packages/bytesparrow/moodle-theme_h5peventsystem",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bytesparrow/moodle-theme_h5peventsystem.git",
                 "reference": "848d1855c82bb9c7a08c83a9b5e742ee4b79bf9a"
             },
             "require": {
@@ -107,16 +103,14 @@
             "support": {
                 "email": "moodle@bytesparrow.de"
             },
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2024-04-17T13:12:05+00:00"
         },
         {
             "name": "bytesparrow/moodle-composer-base",
             "version": "v1.0-alpha6",
-            "dist": {
-                "type": "path",
-                "url": "local_dev_packages/bytesparrow/moodle-composer-base",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bytesparrow/moodle-composer-base.git",
                 "reference": "731249c61a28bdec3796aee3229ac8149b92719a"
             },
             "require": {
@@ -338,9 +332,7 @@
                 "composer",
                 "moodle"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2024-04-26T12:54:13+00:00"
         },
         {
             "name": "bytesparrow/moodle-mix",
@@ -394,9 +386,9 @@
         {
             "name": "bytesparrow/nos",
             "version": "v1.0-alpha3",
-            "dist": {
-                "type": "path",
-                "url": "local_dev_packages/bytesparrow/moodle-theme_nos",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bytesparrow/moodle-theme_nos.git",
                 "reference": "58ec7dfc64b501702338429fa07c946266601af3"
             },
             "require": {
@@ -422,16 +414,14 @@
                 "moodle",
                 "theme"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2024-04-17T13:22:28+00:00"
         },
         {
             "name": "bytesparrow/pdffieldrenderer",
             "version": "v1.0-alpha4",
-            "dist": {
-                "type": "path",
-                "url": "local_dev_packages/bytesparrow/moodle-local_pdffieldrenderer",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bytesparrow/moodle-local_pdffieldrenderer.git",
                 "reference": "2dba639cb6b0adf90173f96d500dd65615352fba"
             },
             "require": {
@@ -460,16 +450,14 @@
             "support": {
                 "email": "moodle@bytesparrow.de"
             },
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2024-04-22T14:39:19+00:00"
         },
         {
             "name": "bytesparrow/pdfjsrenderer",
             "version": "v1.1",
-            "dist": {
-                "type": "path",
-                "url": "local_dev_packages/bytesparrow/moodle-local_pdfjsrenderer",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bytesparrow/moodle-local_pdfjsrenderer.git",
                 "reference": "ff5820fcfe5a31d35075eafdd0c10807744e9229"
             },
             "require": {
@@ -496,16 +484,14 @@
                 "pdf",
                 "pdfjs"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2024-04-22T14:35:01+00:00"
         },
         {
             "name": "bytesparrow/zmulticontentrendering",
             "version": "v1.0-alpha2",
-            "dist": {
-                "type": "path",
-                "url": "local_dev_packages/bytesparrow/moodle-local_zmulticontentrendering",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bytesparrow/moodle-local_zmulticontentrendering.git",
                 "reference": "162ce90ef0c48f2cf8a236f3e3befc67874c3d47"
             },
             "require": {
@@ -535,9 +521,7 @@
             "support": {
                 "email": "moodle@bytesparrow.de"
             },
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2024-04-26T13:07:54+00:00"
         },
         {
             "name": "composer/installers",
@@ -785,5 +769,5 @@
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }
