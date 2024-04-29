@@ -27,10 +27,6 @@
         {
             "type": "path",
             "url": "local_dev_packages/bytesparrow/moodle-composer-base"
-        },
-        {
-            "type": "path",
-            "url": "local_dev_packages/bytesparrow/moodle-customfield_file"
         }
     ]
 }

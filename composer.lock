@@ -488,11 +488,11 @@
         },
         {
             "name": "bytesparrow/zmulticontentrendering",
-            "version": "v1.0-alpha2",
+            "version": "v1.0-alpha3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bytesparrow/moodle-local_zmulticontentrendering.git",
-                "reference": "162ce90ef0c48f2cf8a236f3e3befc67874c3d47"
+                "reference": "bdd72334d6bcf7816736d31f1443d839b7e013f8"
             },
             "require": {
                 "composer/installers": "~2.2",
@@ -521,7 +521,7 @@
             "support": {
                 "email": "moodle@bytesparrow.de"
             },
-            "time": "2024-04-26T13:07:54+00:00"
+            "time": "2024-04-29T09:00:17+00:00"
         },
         {
             "name": "composer/installers",
