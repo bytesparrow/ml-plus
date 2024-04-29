@@ -130,6 +130,7 @@
             "require": [
                 "vendor/bytesparrow/moodle-composer-base/composer.json"
             ],
+
             "recurse": true,
             "replace": true,
             "ignore-duplicates": false,

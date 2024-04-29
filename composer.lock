@@ -385,11 +385,11 @@
         },
         {
             "name": "bytesparrow/nos",
-            "version": "v1.0-alpha3",
+            "version": "v1.0-alpha4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bytesparrow/moodle-theme_nos.git",
-                "reference": "58ec7dfc64b501702338429fa07c946266601af3"
+                "reference": "88ad92929152d518380cb637f53be4ef1f276b9d"
             },
             "require": {
                 "bytesparrow/contentmodifier": "v1.*",
@@ -414,7 +414,7 @@
                 "moodle",
                 "theme"
             ],
-            "time": "2024-04-17T13:22:28+00:00"
+            "time": "2024-04-29T09:31:16+00:00"
         },
         {
             "name": "bytesparrow/pdffieldrenderer",
