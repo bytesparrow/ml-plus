@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "641d75a885db950c3ea94131d0c79257",
+    "content-hash": "6de58e68e5ffeb433e09885821c72202",
     "packages": [
         {
             "name": "adapta/modcustomfields",
@@ -685,11 +685,11 @@
         },
         {
             "name": "moodle/moodle",
-            "version": "4.3.3",
+            "version": "4.3.4",
             "dist": {
                 "type": "zip",
-                "url": "https://satis.middag.com.br/dist/moodle/moodle/moodle-moodle-4.3.3.zip",
-                "shasum": "922715d640e6dc2d2540a0bb9d6fcde4092e293b"
+                "url": "https://satis.middag.com.br/dist/moodle/moodle/moodle-moodle-4.3.4.zip",
+                "shasum": "58e253944a19d7278648341548e97934be853694"
             },
             "require": {
                 "composer/installers": "*"

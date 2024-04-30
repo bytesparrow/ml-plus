@@ -108,7 +108,7 @@
 
     "require": {
         "bytesparrow/moodle-mix": "dev-main",
-        "moodle/moodle": "v4.3.3",
+        "moodle/moodle": "v4.3.4",
         "wikimedia/composer-merge-plugin": "^2.1"
     },
     "minimum-stability": "dev",
@@ -130,7 +130,7 @@
             "require": [
                 "vendor/bytesparrow/moodle-composer-base/composer.json"
             ],
-
+            
             "recurse": true,
             "replace": true,
             "ignore-duplicates": false,
