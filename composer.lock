@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6de58e68e5ffeb433e09885821c72202",
+    "content-hash": "500f1c4475cbee4e4f16eb02a0c5ca9a",
     "packages": [
         {
             "name": "adapta/modcustomfields",
@@ -107,11 +107,11 @@
         },
         {
             "name": "bytesparrow/moodle-composer-base",
-            "version": "v1.0-alpha6",
+            "version": "v1.0-alpha7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bytesparrow/moodle-composer-base.git",
-                "reference": "731249c61a28bdec3796aee3229ac8149b92719a"
+                "reference": "bea1e661d5d193e4fb09def30c3e4266b19248f6"
             },
             "require": {
                 "composer-plugin-api": "^2",
@@ -332,7 +332,7 @@
                 "composer",
                 "moodle"
             ],
-            "time": "2024-04-26T12:54:13+00:00"
+            "time": "2024-05-06T10:36:08+00:00"
         },
         {
             "name": "bytesparrow/moodle-mix",
@@ -488,11 +488,11 @@
         },
         {
             "name": "bytesparrow/zmulticontentrendering",
-            "version": "v1.0-alpha3",
+            "version": "v1.0-alpha4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bytesparrow/moodle-local_zmulticontentrendering.git",
-                "reference": "bdd72334d6bcf7816736d31f1443d839b7e013f8"
+                "reference": "bae70d73e551374f11a0e7423072fedf1d76a48d"
             },
             "require": {
                 "composer/installers": "~2.2",
@@ -521,7 +521,7 @@
             "support": {
                 "email": "moodle@bytesparrow.de"
             },
-            "time": "2024-04-29T09:00:17+00:00"
+            "time": "2024-05-06T09:14:58+00:00"
         },
         {
             "name": "composer/installers",
@@ -685,11 +685,11 @@
         },
         {
             "name": "moodle/moodle",
-            "version": "4.3.4",
+            "version": "4.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://satis.middag.com.br/dist/moodle/moodle/moodle-moodle-4.3.4.zip",
-                "shasum": "58e253944a19d7278648341548e97934be853694"
+                "url": "https://satis.middag.com.br/dist/moodle/moodle/moodle-moodle-4.4.0.zip",
+                "shasum": "cdee5831662e62660051216a711319a6ac4e806c"
             },
             "require": {
                 "composer/installers": "*"

@@ -108,7 +108,7 @@
 
     "require": {
         "bytesparrow/moodle-mix": "dev-main",
-        "moodle/moodle": "v4.3.4",
+        "moodle/moodle": "v4.4.0",
         "wikimedia/composer-merge-plugin": "^2.1"
     },
     "minimum-stability": "dev",
@@ -125,12 +125,11 @@
         }
     },
     "extra": {
-        "keepfiles": ["config.abc", "config.xxx"], 
+        "keepfiles": ["config.abc", "config.xxx", "local/nmstream"], 
         "merge-plugin": { 
             "require": [
                 "vendor/bytesparrow/moodle-composer-base/composer.json"
             ],
-            
             "recurse": true,
             "replace": true,
             "ignore-duplicates": false,
