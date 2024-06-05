@@ -19,11 +19,11 @@
             "package": {
                 "name": "moodle-an-hochschulen/boost_union",
                 "type": "moodle-theme",
-                "version": "v4.1.24",
+                "version": "v4.3.13",
                 "source": {
                     "url": "https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git",
                     "type": "git",
-                    "reference": "tags/v4.1-r24"
+                    "reference": "tags/v4.3-r13"
                 },
                 "require": {
                     "composer/installers": "~2.2",
@@ -36,11 +36,11 @@
             "package": {
                 "name": "moodle-an-hochschulen/boost_union",
                 "type": "moodle-theme",
-                "version": "v4.3.11",
+                "version": "v4.1.24",
                 "source": {
                     "url": "https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git",
                     "type": "git",
-                    "reference": "tags/v4.3-r11"
+                    "reference": "tags/v4.1-r24"
                 },
                 "require": {
                     "composer/installers": "~2.2",

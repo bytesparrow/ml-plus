@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "500f1c4475cbee4e4f16eb02a0c5ca9a",
+    "content-hash": "7c46a2c530423c9186fa61b497b6fc90",
     "packages": [
         {
             "name": "adapta/modcustomfields",
@@ -107,11 +107,11 @@
         },
         {
             "name": "bytesparrow/moodle-composer-base",
-            "version": "v1.0-alpha7",
+            "version": "v1.0-alpha8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bytesparrow/moodle-composer-base.git",
-                "reference": "bea1e661d5d193e4fb09def30c3e4266b19248f6"
+                "reference": "dac41075428d53a814795424bd76425bdac0d217"
             },
             "require": {
                 "composer-plugin-api": "^2",
@@ -332,7 +332,7 @@
                 "composer",
                 "moodle"
             ],
-            "time": "2024-05-06T10:36:08+00:00"
+            "time": "2024-05-06T13:24:04+00:00"
         },
         {
             "name": "bytesparrow/moodle-mix",
@@ -340,7 +340,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bytesparrow/moodle-mix.git",
-                "reference": "f3e890437d7efa3c97336304e34e07932dfe4a86"
+                "reference": "4e07888e6ba64a607d5dec2e686f5297e1d6a9af"
             },
             "require": {
                 "adapta/modcustomfields": "6",
@@ -352,7 +352,7 @@
                 "bytesparrow/pdffieldrenderer": "v1.*",
                 "bytesparrow/pdfjsrenderer": "v1.*",
                 "bytesparrow/zmulticontentrendering": "v1.*",
-                "moodle-an-hochschulen/boost_union": "v4.1.*",
+                "moodle-an-hochschulen/boost_union": "v4.3.*",
                 "wikimedia/composer-merge-plugin": "^2.0"
             },
             "default-branch": true,
@@ -381,21 +381,21 @@
                 }
             ],
             "description": "Using this custom Moodle installation you can combine various contents within Moodle.",
-            "time": "2024-04-25T09:38:35+00:00"
+            "time": "2024-05-31T07:57:27+00:00"
         },
         {
             "name": "bytesparrow/nos",
-            "version": "v1.0-alpha4",
+            "version": "v1.0-alpha6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bytesparrow/moodle-theme_nos.git",
-                "reference": "88ad92929152d518380cb637f53be4ef1f276b9d"
+                "reference": "fe2c37e66303fa26d2a8c7c233267c4b3619e157"
             },
             "require": {
                 "bytesparrow/contentmodifier": "v1.*",
                 "bytesparrow/h5peventsystem": "v1.*",
                 "composer/installers": "~2.2",
-                "moodle/moodle": "v4.*"
+                "moodle/moodle": "v4.4.*"
             },
             "type": "moodle-theme",
             "license": [
@@ -409,12 +409,12 @@
                     "role": "Developer"
                 }
             ],
-            "description": "A theme for ml.",
+            "description": "NOS is a theme that allows the manipulation of Moodle's site-layout completely",
             "keywords": [
                 "moodle",
                 "theme"
             ],
-            "time": "2024-04-29T09:31:16+00:00"
+            "time": "2024-06-05T11:25:14+00:00"
         },
         {
             "name": "bytesparrow/pdffieldrenderer",
@@ -454,11 +454,11 @@
         },
         {
             "name": "bytesparrow/pdfjsrenderer",
-            "version": "v1.1",
+            "version": "v1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bytesparrow/moodle-local_pdfjsrenderer.git",
-                "reference": "ff5820fcfe5a31d35075eafdd0c10807744e9229"
+                "reference": "8270bdc21edf6aa725f85708619356bc0a08f1e2"
             },
             "require": {
                 "composer/installers": "~2.2",
@@ -484,7 +484,7 @@
                 "pdf",
                 "pdfjs"
             ],
-            "time": "2024-04-22T14:35:01+00:00"
+            "time": "2024-05-07T09:06:04+00:00"
         },
         {
             "name": "bytesparrow/zmulticontentrendering",
@@ -671,11 +671,11 @@
         },
         {
             "name": "moodle-an-hochschulen/boost_union",
-            "version": "v4.1.24",
+            "version": "v4.3.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git",
-                "reference": "tags/v4.1-r24"
+                "reference": "tags/v4.3-r13"
             },
             "require": {
                 "composer/installers": "~2.2",
