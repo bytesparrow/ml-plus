@@ -385,11 +385,11 @@
         },
         {
             "name": "bytesparrow/nos",
-            "version": "v1.0-alpha6",
+            "version": "v1.0-alpha7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bytesparrow/moodle-theme_nos.git",
-                "reference": "fe2c37e66303fa26d2a8c7c233267c4b3619e157"
+                "reference": "2462019e7294ecf2852ed301960515a649155363"
             },
             "require": {
                 "bytesparrow/contentmodifier": "v1.*",
@@ -414,7 +414,7 @@
                 "moodle",
                 "theme"
             ],
-            "time": "2024-06-05T11:25:14+00:00"
+            "time": "2024-06-11T09:57:57+00:00"
         },
         {
             "name": "bytesparrow/pdffieldrenderer",
@@ -488,11 +488,11 @@
         },
         {
             "name": "bytesparrow/zmulticontentrendering",
-            "version": "v1.0-alpha4",
+            "version": "v1.0-alpha5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bytesparrow/moodle-local_zmulticontentrendering.git",
-                "reference": "bae70d73e551374f11a0e7423072fedf1d76a48d"
+                "reference": "abef96331b0af2f74eb21c24536832350d240c4f"
             },
             "require": {
                 "composer/installers": "~2.2",
@@ -521,7 +521,7 @@
             "support": {
                 "email": "moodle@bytesparrow.de"
             },
-            "time": "2024-05-06T09:14:58+00:00"
+            "time": "2024-06-11T10:01:02+00:00"
         },
         {
             "name": "composer/installers",
