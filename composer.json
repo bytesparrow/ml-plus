@@ -125,7 +125,7 @@
         }
     },
     "extra": {
-        "keepfiles": ["config.abc", "config.xxx", "local/nmstream"], 
+        "keepfiles": ["config.abc", "config.xxx", "local/nmstream", "big"], 
         "merge-plugin": { 
             "require": [
                 "vendor/bytesparrow/moodle-composer-base/composer.json"
