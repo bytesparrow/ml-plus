@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0b583644cb34f80d8e4f33b461aab612",
+    "content-hash": "b08668b146206975d3e3115996bacfea",
     "packages": [
         {
             "name": "adapta/modcustomfields",
